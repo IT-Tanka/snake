@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+main {
+    display: flex;
+    margin: auto;
+    height: 400px;
+    margin-top: 20px;
+
+}
+
+h1 {
+    margin: 15px 20px;
+    font-size: 1.7rem;
+    text-align: center;
+    color: green;
+}
+
+#gui {
+    display: flex;
+    flex-direction: column;
+    background-color: #2b8a92;
+    color: #fff;
+    min-width: 200px;
+}
+
+#score-board p {
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#best-score, #current-score{
+    display: block;
+    text-align: center;
+    width: 70%;
+    font-size: large;
+}
+#score-board p:first-child {
+    background-color:  #17595f;
+}
+
+#score-board p:last-child {
+    background-color: #136b72;
+}
+
+button {
+    background-color:darkgreen;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 60px;
+}
+
+button:hover {
+    background-color: #607d8b;
+}
+
+#game-modes {
+    padding: 10px 20px;
+    background-color: darkgreen;
+}
+input{
+    margin-bottom: 8px;
+}
+#controls{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    margin-top: 15px;
+}
